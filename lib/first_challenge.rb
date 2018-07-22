@@ -20,6 +20,8 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
           flavor.delete_if("strawberry")
+        end
+      end
     end
   end
 
