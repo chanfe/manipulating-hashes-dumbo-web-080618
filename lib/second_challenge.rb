@@ -11,6 +11,5 @@ def second_challenge
   groceries.each do |key, value|
     answer << value
   end
-  
-
+  answer
 end
